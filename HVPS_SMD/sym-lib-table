@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name HVPS_SMD)(type Legacy)(uri ${KIPRJMOD}/lib_sch/HVPS_SMD.lib)(options "")(descr ""))
+)
