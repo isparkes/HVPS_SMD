@@ -1,6 +1,19 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# HVPS_SMD-rescue_PWR_FLAG-NixieClockMaster
+#
+DEF HVPS_SMD-rescue_PWR_FLAG-NixieClockMaster #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H V C CNN
+F1 "HVPS_SMD-rescue_PWR_FLAG-NixieClockMaster" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
 # HVPS_SMD_CONN_01X02
 #
 DEF HVPS_SMD_CONN_01X02 J 0 40 Y N 1 F N
@@ -273,19 +286,6 @@ X 8 6 -200 -400 100 R 40 40 1 1 P
 X 3 7 200 200 100 L 40 40 1 1 P
 X 5 8 200 -100 100 L 40 40 1 1 P
 X 7 9 200 -400 100 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# NixieClockMaster_PWR_FLAG
-#
-DEF NixieClockMaster_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H V C CNN
-F1 "NixieClockMaster_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
