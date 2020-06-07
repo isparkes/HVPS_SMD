@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HVPS_SMD-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -23,17 +22,6 @@ F 1 "LM3478SOIC8" H 4400 3000 45  0000 L BNN
 F 2 "lib_fp:nixiemisc-SOIC8" H 4330 3650 20  0001 C CNN
 F 3 "" H 4300 3500 60  0001 C CNN
 	1    4300 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HVPS_SMD:WE-FLEX_ER11_5 T1
-U 1 1 59C9939D
-P 6650 2000
-F 0 "T1" H 6400 2500 45  0000 L BNN
-F 1 "WE-FLEX_ER11_5" H 6400 1500 45  0000 L BNN
-F 2 "lib_fp:nixiemisc-WE-FLEX_ER11_5" H 6680 2150 20  0001 C CNN
-F 3 "" H 6650 2000 60  0001 C CNN
-	1    6650 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -359,34 +347,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 2100 7550 2100
 Wire Wire Line
-	6300 1600 6300 1400
-Wire Wire Line
-	6450 1600 6300 1600
-Wire Wire Line
-	6850 1800 6850 1900
-Wire Wire Line
-	7050 2200 6850 2200
-Wire Wire Line
-	7050 2550 7050 2200
-Wire Wire Line
-	6350 2550 7050 2550
-Wire Wire Line
-	6350 2400 6350 2550
-Wire Wire Line
-	6450 2400 6350 2400
-Wire Wire Line
-	6950 1600 6850 1600
-Wire Wire Line
-	6950 2400 6950 1600
-Wire Wire Line
-	6850 2400 6950 2400
-Wire Wire Line
-	6350 1800 6450 1800
-Wire Wire Line
-	6350 2200 6350 1800
-Wire Wire Line
-	6450 2200 6350 2200
-Wire Wire Line
 	5150 2850 5150 3000
 Wire Wire Line
 	5150 2500 5150 2650
@@ -483,8 +443,6 @@ F 3 "" H 7350 1400 60  0001 C CNN
 	1    7350 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 1400 7250 1400
 Wire Wire Line
 	6450 1900 5650 1900
 Wire Wire Line
@@ -583,4 +541,19 @@ F 3 "" H 8100 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8100 1100 8100 1400
+$Comp
+L HVPS_SMD:MagTop-HVSMPS T1
+U 1 1 5EE051E4
+P 6650 2300
+F 0 "T1" H 6653 2899 45  0000 C CNN
+F 1 "MagTop-HVSMPS" H 6653 2815 45  0000 C CNN
+F 2 "lib_fp:nixiemisc-WE-FLEX_ER11_5" H 6680 2450 20  0001 C CNN
+F 3 "" H 6650 2300 60  0001 C CNN
+	1    6650 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1400 6850 1900
+Wire Wire Line
+	6850 1400 7250 1400
 $EndSCHEMATC

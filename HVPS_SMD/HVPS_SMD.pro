@@ -1,4 +1,4 @@
-update=Di 02 Apr 2019 11:39:52 CEST
+update=So 07 Jun 2020 15:02:00
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,18 +28,18 @@ PkgIExt=.pkg
 NetDir=
 LibDir=
 NetType=0
+[general]
+version=1
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=nixies.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
 LabSize=60
-[general]
-version=1
-[eeschema]
-version=1
-LibDir=
+ERC_TestSimilarLabels=1
