@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6002)
-    (drawings 11)
+    (drawings 12)
     (tracks 171)
     (zones 0)
     (modules 22)
@@ -975,6 +975,9 @@
       (net 1 Vin))
   )
 
+  (gr_text "v0.2 12/06/2020" (at 208.24 75.98) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1)))
+  )
   (gr_text Ven (at 182.03 73.67 270) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.127)))
   )
