@@ -1,4 +1,4 @@
-16235127902897273
+16236842553992908
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -41544,6 +41544,13 @@ HVSMPS-Andrews-Flip
 0
 6
 6
+NixieClockMaster
+HVSMPS-Andrews-V2
+
+
+0
+4
+2
 NixieClockMaster
 HVSMPS2
 
