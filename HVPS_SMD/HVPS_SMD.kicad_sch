@@ -1499,7 +1499,7 @@
     (uuid 00000000-0000-0000-0000-000059c9bab8)
     (property "Reference" "J2" (id 0) (at 43.18 63.5 0))
     (property "Value" "CONN_01X02" (id 1) (at 40.64 59.69 90))
-    (property "Footprint" "NixieClockMaster:Header_MA02-Edge" (id 2) (at 43.18 59.69 0)
+    (property "Footprint" "NixieClockMaster:Header_MA02-Edge-3.2" (id 2) (at 43.18 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 43.18 59.69 0)
@@ -1569,7 +1569,7 @@
     (uuid 00000000-0000-0000-0000-000059cc5eb0)
     (property "Reference" "J1" (id 0) (at 43.18 46.99 0))
     (property "Value" "CONN_01X02" (id 1) (at 40.64 43.18 90))
-    (property "Footprint" "NixieClockMaster:Header_MA02-Edge" (id 2) (at 43.18 43.18 0)
+    (property "Footprint" "NixieClockMaster:Header_MA02-Edge-3.2" (id 2) (at 43.18 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 43.18 43.18 0)
@@ -1740,10 +1740,10 @@
       (reference "D1") (unit 1) (value "ES1JF") (footprint "NixieClockMaster:SMAF")
     )
     (path "/00000000-0000-0000-0000-000059cc5eb0"
-      (reference "J1") (unit 1) (value "CONN_01X02") (footprint "NixieClockMaster:Header_MA02-Edge")
+      (reference "J1") (unit 1) (value "CONN_01X02") (footprint "NixieClockMaster:Header_MA02-Edge-3.2")
     )
     (path "/00000000-0000-0000-0000-000059c9bab8"
-      (reference "J2") (unit 1) (value "CONN_01X02") (footprint "NixieClockMaster:Header_MA02-Edge")
+      (reference "J2") (unit 1) (value "CONN_01X02") (footprint "NixieClockMaster:Header_MA02-Edge-3.2")
     )
     (path "/00000000-0000-0000-0000-000059c9950d"
       (reference "Q1") (unit 1) (value "AO4294") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")

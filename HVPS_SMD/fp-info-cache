@@ -1,4 +1,4 @@
-16236842553992908
+16238557651548880
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -41550,7 +41550,7 @@ HVSMPS-Andrews-V2
 
 0
 4
-2
+4
 NixieClockMaster
 HVSMPS2
 
@@ -41651,6 +41651,13 @@ PIN HEADER
 16
 NixieClockMaster
 Header_MA02-Edge
+PIN HEADER
+PIN HEADER
+0
+2
+2
+NixieClockMaster
+Header_MA02-Edge-3.2
 PIN HEADER
 PIN HEADER
 0
