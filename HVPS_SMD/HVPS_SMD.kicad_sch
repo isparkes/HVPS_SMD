@@ -1589,7 +1589,7 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 130.81 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 130.81 60.96 0)
+    (property "Datasheet" "C28167" (id 3) (at 130.81 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid df0a1e62-bd4b-466d-b4b5-ed4ddbbf0ad5))
