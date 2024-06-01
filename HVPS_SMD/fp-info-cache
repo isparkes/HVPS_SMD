@@ -1,4 +1,4 @@
-16242053386794854
+16245486663664205
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -42364,6 +42364,13 @@ SK-116-WireLeads
 11
 11
 NixieClockMaster
+SK2812-mini
+
+
+0
+6
+4
+NixieClockMaster
 SMAF
 
 
@@ -42729,6 +42736,13 @@ nixies-us-IN-2-DSUB
 11
 NixieClockMaster
 nixies-us-IN-2-DSUB-1.3mm1-pins
+
+
+0
+11
+11
+NixieClockMaster
+nixies-us-IN-2-DSUB-1mm-pins
 
 
 0
