@@ -2,7 +2,12 @@
 
   (uuid 261a941d-88e0-4e11-b528-43172e608a1b)
 
-  (paper "USLetter")
+  (paper "A4")
+
+  (title_block
+    (title "Nixie High Voltage Switch Mode Power Supply")
+    (date "2024-09-24")
+  )
 
   (lib_symbols
     (symbol "Device:D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
